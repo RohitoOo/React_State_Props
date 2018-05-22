@@ -8,7 +8,7 @@ window.API = () => {
     const data = {
         firstName: 'Aravind',
         lastName: 'M',
-        image: 'https://img.etimg.com/thumb/msid-61717490,width-300,imgsize-55892,resizemode-4/alia-bhatt-buys-stake-in-startup-stylecracker.jpg',
+        image: 'https://pbs.twimg.com/profile_images/983534737900953601/PAh1Ofi5.jpg',
         details: [
             {
                 id: 1,
