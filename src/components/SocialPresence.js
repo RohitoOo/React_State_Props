@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+import SocialDetail from './SocialDetail.js';
 
 
 
@@ -24,7 +25,7 @@ class SocialPresence extends Component {
             <input className="form-control" type="text" value={this.state.filter}
                    placeholder="personal/professional" onChange={(e) => this.handleFilterChange(e)}/>
             <button className="btn btn-outline-primary" onClick={this.changeFilteredProfiles}>Search</button>
-
+                <SocialDetail socialDetail={this.state}/>
             <ul className="list-group">
                 {this.state.filteredProfiles.map(detail =>
                     <li key={detail.id} className="list-group-item">
@@ -38,6 +39,6 @@ class SocialPresence extends Component {
 
 
 }}
-  // <SocialDetail socialDetail={detail}/>
+
 
 export default SocialPresence
